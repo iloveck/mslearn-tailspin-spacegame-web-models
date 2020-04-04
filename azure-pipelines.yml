@@ -36,7 +36,7 @@ steps:
     patchVersion: '0'
  
 - task: NuGetCommand@2
-  displayName: 'Publish NuGet package'
+  displayName: 'Ck0404 Publish NuGet package'
   inputs:
     command: push
     publishVstsFeed: 'Space Game - web - Dependencies/Tailspin.SpaceGame.Web.Models'
